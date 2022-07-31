@@ -1,6 +1,6 @@
 import getText from '../src/get-text';
 
-function Index({ text }: { text: string }) {
+function Index({ text }) {
   return text;
 }
 
