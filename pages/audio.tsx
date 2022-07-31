@@ -3,7 +3,7 @@ import say from 'say';
 import getText from '../src/get-text';
 
 function Audio({ text }: { text: string }) {
-  say.speak(text);
+  return text;
 }
 
 export default Audio;
