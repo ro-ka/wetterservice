@@ -10,4 +10,3 @@ export async function getServerSideProps() {
   const text = await getText();
   return { props: { text } };
 }
-
