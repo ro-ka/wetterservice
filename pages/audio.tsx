@@ -1,5 +1,3 @@
-import say from 'say';
-
 import getText from '../src/get-text';
 
 function Audio({ text }: { text: string }) {
