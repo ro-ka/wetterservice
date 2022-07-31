@@ -1,10 +1,12 @@
+import say from 'say';
+
 import getText from '../src/get-text';
 
-function Index({ text }: { text: string }) {
-  return text;
+function Audio({ text }: { text: string }) {
+  say.speak(text);
 }
 
-export default Index;
+export default Audio;
 
 export async function getServerSideProps() {
   const text = await getText();
